@@ -1,8 +1,357 @@
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-       <h1>WeAreCoffee</h1> 
-    </body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Artisan Coffee for questions about our coffee menu, beans, brewing guides, and Coffee Club.">
+    <title>Contact Us | Artisan Coffee</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>ARTISAN COFFEE</h1>
+        <p>Crafted With Passion</p>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="beans.html">Our Beans</a></li>
+                <li><a href="brewing.html">Brewing Guide</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="club.html">Coffee Club</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Announcement Section -->
+    <section>
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            We'd Love to Hear From You! Get in Touch With Artisan Coffee.
+        </marquee>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section>
+            <h2>Contact Us</h2>
+            <h3>Let's Talk Coffee!</h3>
+
+            <p>
+                Have a question about our coffee, beans, or brewing methods?
+                Want to know more about the Artisan Coffee Club?
+                We're happy to hear from you.
+            </p>
+
+            <p>
+                Send us your questions, suggestions, or feedback.
+                Every message is an opportunity to make your coffee experience better.
+            </p>
+
+            <img src="images/contact-coffee.jpg" alt="A freshly brewed cup of coffee ready to be enjoyed">
+        </section>
+
+        <!-- Contact Information -->
+        <section>
+            <h2>Get in Touch</h2>
+
+            <article>
+                <h3>Email Us</h3>
+
+                <p>
+                    Have a question or suggestion? Send us an email.
+                </p>
+
+                <p>
+                    <a href="mailto:hello@artisancoffee.com">hello@artisancoffee.com</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Call Us</h3>
+
+                <p>
+                    You can contact our team using the phone number below.
+                </p>
+
+                <p>
+                    <a href="tel:+919876543210">+91 98765 43210</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Visit Us</h3>
+
+                <p>
+                    We welcome coffee lovers to discover our world of coffee.
+                </p>
+
+                <p>
+                    Location: Ahmedabad, Gujarat, India
+                </p>
+
+                <p>
+                    Note: This is a sample location for the website project.
+                </p>
+            </article>
+        </section>
+
+        <!-- Business Hours -->
+        <section>
+            <h2>Our Business Hours</h2>
+
+            <p>
+                Here are the sample opening hours for Artisan Coffee.
+            </p>
+
+            <table>
+                <caption>Opening Hours</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Opening Time</th>
+                        <th scope="col">Closing Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>9:00 AM</td>
+                        <td>9:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>9:00 AM</td>
+                        <td>9:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>9:00 AM</td>
+                        <td>9:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>9:00 AM</td>
+                        <td>9:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>9:00 AM</td>
+                        <td>10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>10:00 AM</td>
+                        <td>10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>10:00 AM</td>
+                        <td>8:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Fill out the form below and tell us how we can help you.
+            </p>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </p>
+
+                <p>
+                    <label for="subject">Subject:</label>
+
+                    <select id="subject" name="subject" required>
+                        <option value="">Select a Subject</option>
+                        <option value="menu">Coffee Menu Inquiry</option>
+                        <option value="beans">Coffee Beans Inquiry</option>
+                        <option value="brewing">Brewing Guide Inquiry</option>
+                        <option value="club">Coffee Club Inquiry</option>
+                        <option value="feedback">Feedback or Suggestion</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Send Message</button>
+                    <button type="reset">Clear Form</button>
+                </p>
+
+            </form>
+
+            <p>
+                Note: This is a demonstration form. Messages will not be sent
+                or stored unless a suitable form-processing system is connected.
+            </p>
+        </section>
+
+        <!-- Frequently Asked Questions -->
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <article>
+                <h3>Where can I find your coffee menu?</h3>
+
+                <p>
+                    You can explore our coffee drinks, categories, and sample
+                    prices on the Our Menu page.
+                </p>
+
+                <p>
+                    <a href="menu.html">Explore Our Menu</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>How can I learn more about coffee beans?</h3>
+
+                <p>
+                    Visit our Our Beans page to learn about coffee varieties,
+                    origins, roasting levels, and flavour profiles.
+                </p>
+
+                <p>
+                    <a href="beans.html">Discover Our Beans</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Where can I learn different brewing methods?</h3>
+
+                <p>
+                    Our Brewing Guide introduces several methods, including
+                    French press, pour-over, espresso machine, moka pot,
+                    and cold brew.
+                </p>
+
+                <p>
+                    <a href="brewing.html">Visit the Brewing Guide</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>How can I learn more about the Coffee Club?</h3>
+
+                <p>
+                    Visit our Coffee Club page to explore its features and
+                    find the sample membership form.
+                </p>
+
+                <p>
+                    <a href="club.html">Explore the Coffee Club</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>How can I share feedback?</h3>
+
+                <p>
+                    You can use the contact form above to write your feedback
+                    or send an email to hello@artisancoffee.com.
+                </p>
+            </article>
+        </section>
+
+        <!-- Final Call to Action -->
+        <section>
+            <h2>Let's Make Every Cup Special</h2>
+
+            <p>
+                Thank you for being part of the Artisan Coffee journey.
+                Whether you are exploring new flavours or learning how to brew
+                your favourite coffee, we're glad you're here.
+            </p>
+
+            <p>
+                <a href="index.html">Return to Home</a>
+            </p>
+
+            <p>
+                <a href="about.html">Read Our Story</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <section>
+            <h2>ARTISAN COFFEE</h2>
+            <p>Crafted With Passion</p>
+            <p>Every Cup Tells a Story.</p>
+        </section>
+
+        <section>
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Our Menu</a></li>
+                <li><a href="beans.html">Our Beans</a></li>
+                <li><a href="brewing.html">Brewing Guide</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="club.html">Coffee Club</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Contact Information</h3>
+
+            <p>
+                Email:
+                <a href="mailto:hello@artisancoffee.com">hello@artisancoffee.com</a>
+            </p>
+
+            <p>
+                Phone:
+                <a href="tel:+919876543210">+91 98765 43210</a>
+            </p>
+        </section>
+
+        <section>
+            <p>&copy; 2026 Artisan Coffee. All Rights Reserved.</p>
+        </section>
+    </footer>
+
+</body>
 </html>
