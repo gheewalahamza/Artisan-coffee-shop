@@ -242,6 +242,7 @@ main > section:nth-child(2) article img {
 
 main > section:nth-child(2) article:hover img {
     transform: scale(1.05);
+    padding-top: 20px;
 }
 
 main > section:nth-child(2) article h3 {
