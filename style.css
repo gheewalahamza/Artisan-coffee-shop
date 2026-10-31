@@ -499,3 +499,75 @@ footer div:last-child {
     }
 
 }
+/* MOBILE NAVIGATION */
+
+header details {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 20px;
+    }
+
+    /* Hide desktop navigation */
+    header nav {
+        display: none;
+    }
+
+    /* Show mobile menu button */
+    header details {
+        display: block;
+        position: relative;
+    }
+
+    header details summary {
+        list-style: none;
+        cursor: pointer;
+        background-color: #38251D;
+        color: #F8F1E7;
+        padding: 12px 18px;
+        border-radius: 6px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    header details summary::-webkit-details-marker {
+        display: none;
+    }
+
+    /* Dropdown menu */
+    header details ul {
+        position: absolute;
+        top: 45px;
+        right: 0;
+        width: 190px;
+        background-color: #F8F1E7;
+        list-style: none;
+        padding: 10px 0;
+        margin: 0;
+        border-radius: 8px;
+        box-shadow: 0 10px 25px rgba(56, 37, 29, 0.2);
+        z-index: 1000;
+    }
+
+    header details ul li a {
+        display: block;
+        padding: 12px 18px;
+        color: #38251D;
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+
+    header details ul li a:hover {
+        background-color: #D9C3A5;
+        color: #38251D;
+    }
+
+}
