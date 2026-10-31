@@ -240,6 +240,11 @@ main > section:nth-child(2) article img {
     transition: transform 0.5s ease;
 }
 
+main > section:nth-child(2) article:first-of-type img {
+    height: auto;
+    aspect-ratio: 1;
+}
+
 main > section:nth-child(2) article:hover img {
     transform: scale(1.05);
     padding-top: 20px;
