@@ -40,7 +40,6 @@ body {
 }
 
 a {
-    color: var(--mocha);
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -91,6 +90,14 @@ nav a {
     font-weight: 600;
     position: relative;
     padding-bottom: 6px;
+}
+
+header nav a {
+    color: var(--mocha);
+}
+
+nav a:hover {
+    color: var(--caramel);
 }
 
 /* 5. ANNOUNCEMENT MARQUEE */
@@ -150,6 +157,7 @@ main > section:first-child div:first-child > p:nth-of-type(2) {
 main > section:first-child a {
     display: inline-block;
     background-color: var(--caramel);
+    color: var(--white);
     padding: 14px 32px;
     letter-spacing: 1px;
     font-size: 13px;
@@ -158,6 +166,7 @@ main > section:first-child a {
 
 main > section:first-child a:hover {
     background-color: transparent;
+    color: var(--espresso);
     transform: translateY(-4px);
 }
 
@@ -248,9 +257,14 @@ main > section:nth-child(2) article p {
 }
 
 main > section:nth-child(2) article a {
+    color: var(--caramel);
     font-size: 13px;
     font-weight: bold;
     margin: 0 20px;
+}
+
+main > section:nth-child(2) article a:hover {
+    color: var(--espresso);
 }
 
 /* 8. ABOUT SECTION */
@@ -291,6 +305,7 @@ main > section:nth-child(3) p {
 main > section:nth-child(3) a {
     display: inline-block;
     background-color: var(--espresso);
+    color: var(--white);
     padding: 13px 28px;
     font-size: 13px;
 }
@@ -325,12 +340,14 @@ main > section:nth-child(4) p {
 main > section:nth-child(4) a {
     display: inline-block;
     background-color: var(--caramel);
+    color: var(--white);
     padding: 14px 32px;
     font-size: 13px;
 }
 
 main > section:nth-child(4) a:hover {
     background-color: var(--latte);
+    color: var(--espresso);
     transform: translateY(-3px);
 }
 
@@ -379,10 +396,12 @@ footer li {
 }
 
 footer a {
+    color: var(--latte);
     font-size: 13px;
 }
 
 footer a:hover {
+    color: var(--white);
     padding-left: 5px;
 }
 
@@ -518,6 +537,7 @@ header details {
 
     header details ul li a {
         display: block;
+        color: var(--mocha);
         padding: 12px 18px;
         font-size: 14px;
         transition: 0.3s;
@@ -525,6 +545,7 @@ header details {
 
     header details ul li a:hover {
         background-color: #D9C3A5;
+        color: var(--caramel);
     }
 
 }
