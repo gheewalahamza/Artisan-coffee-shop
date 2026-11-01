@@ -240,7 +240,8 @@ main > section:nth-child(2) article img {
     transition: transform 0.5s ease;
 }
 
-main > section:nth-child(2) article:first-of-type img {
+main > section:nth-child(2) article:first-of-type img,
+main > section:nth-child(2) article:last-of-type img {
     height: auto;
     aspect-ratio: 1;
 }
