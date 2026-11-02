@@ -828,3 +828,317 @@ main > section:last-child a:hover {
         font-size: 29px;
     }
 }
+/* COFFEE BEAN VARIETIES */
+
+#coffee-varieties {
+    background-color: #FFFFFF;
+    padding: 70px 7%;
+    text-align: center;
+}
+
+#coffee-varieties h2,
+#coffee-origins h2,
+#roasting-levels h2,
+#flavour-profiles h2,
+#farm-to-cup h2 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+#coffee-varieties > p,
+#coffee-origins > p,
+#roasting-levels > p,
+#flavour-profiles > p,
+#farm-to-cup > p {
+    color: #6B422E;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+#coffee-varieties article {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-height: 480px;
+    margin: 15px;
+    padding: 22px;
+    box-sizing: border-box;
+    background-color: #F8F1E7;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(56, 37, 29, 0.12);
+    transition: 0.3s;
+}
+
+#coffee-varieties article:hover {
+    transform: translateY(-7px);
+}
+
+#coffee-varieties article img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#coffee-varieties article h3 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin: 18px 0 10px;
+}
+
+#coffee-varieties article p {
+    color: #6B422E;
+    line-height: 1.7;
+}
+
+#coffee-varieties article h4 {
+    color: #A87952;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+#coffee-varieties article ul {
+    display: block;
+    list-style: disc;
+    padding-left: 22px;
+    text-align: left;
+}
+
+#coffee-varieties article li {
+    color: #6B422E;
+    margin: 10px 0;
+}
+/* COFFEE ORIGINS */
+
+#coffee-origins {
+    background-color: #F8F1E7;
+    padding: 70px 6%;
+    text-align: center;
+}
+
+#coffee-origins article {
+    display: inline-block;
+    vertical-align: top;
+    width: 21%;
+    min-height: 410px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(56, 37, 29, 0.12);
+    transition: 0.3s;
+}
+
+#coffee-origins article:hover {
+    transform: translateY(-7px);
+}
+
+#coffee-origins article img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#coffee-origins article h3 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+#coffee-origins article p {
+    color: #6B422E;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#coffee-origins article p:last-child {
+    color: #A87952;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* COFFEE ROASTING LEVELS */
+
+#roasting-levels {
+    background-color: #FFFFFF;
+    padding: 70px 7%;
+    text-align: center;
+}
+
+#roasting-levels article {
+    display: inline-block;
+    vertical-align: top;
+    width: 28%;
+    min-height: 390px;
+    margin: 12px;
+    padding: 18px;
+    box-sizing: border-box;
+    background-color: #F8F1E7;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(56, 37, 29, 0.12);
+    transition: 0.3s;
+}
+
+#roasting-levels article:hover {
+    transform: translateY(-7px);
+}
+
+#roasting-levels article img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#roasting-levels article h3 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+#roasting-levels article p {
+    color: #6B422E;
+    line-height: 1.7;
+    font-size: 14px;
+}
+
+#roasting-levels article p:last-child {
+    color: #A87952;
+    font-weight: bold;
+    margin-top: 15px;
+}
+/* FLAVOUR PROFILES */
+
+#flavour-profiles {
+    background-color: #F8F1E7;
+    padding: 70px 6%;
+    text-align: center;
+}
+
+#flavour-profiles article {
+    display: inline-block;
+    vertical-align: top;
+    width: 21%;
+    min-height: 320px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 10px 30px rgba(56, 37, 29, 0.12);
+    transition: 0.3s;
+}
+
+#flavour-profiles article:hover {
+    transform: translateY(-7px);
+}
+
+#flavour-profiles article img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#flavour-profiles article h3 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 21px;
+    margin: 15px 0 10px;
+}
+
+#flavour-profiles article p {
+    color: #6B422E;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* FARM TO CUP PROCESS */
+
+#farm-to-cup {
+    background-color: #FFFFFF;
+    padding: 70px 6%;
+    text-align: center;
+}
+
+#farm-to-cup article {
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+    min-height: 230px;
+    margin: 8px;
+    padding: 18px;
+    box-sizing: border-box;
+    background-color: #F8F1E7;
+    border-top: 4px solid #A87952;
+    border-radius: 8px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+#farm-to-cup article:hover {
+    transform: translateY(-7px);
+    background-color: #D9C3A5;
+}
+
+#farm-to-cup article h3 {
+    color: #38251D;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#farm-to-cup article p {
+    color: #6B422E;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* BEANS PAGE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    #coffee-varieties,
+    #coffee-origins,
+    #roasting-levels,
+    #flavour-profiles,
+    #farm-to-cup {
+        padding: 45px 5%;
+    }
+
+    #coffee-varieties article,
+    #coffee-origins article,
+    #roasting-levels article,
+    #flavour-profiles article,
+    #farm-to-cup article {
+        display: block;
+        width: 100%;
+        min-height: auto;
+        margin: 20px 0;
+        box-sizing: border-box;
+    }
+
+    #coffee-varieties article img,
+    #coffee-origins article img,
+    #roasting-levels article img,
+    #flavour-profiles article img {
+        height: 220px;
+    }
+
+    #coffee-varieties h2,
+    #coffee-origins h2,
+    #roasting-levels h2,
+    #flavour-profiles h2,
+    #farm-to-cup h2 {
+        font-size: 28px;
+    }
+
+}
