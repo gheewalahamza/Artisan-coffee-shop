@@ -8,6 +8,6 @@ BCA sem-1
 gwvufy
 
 Source: [index.html](./index.html)
-git add index.html
+git add menu.html
 git commit -m "Update homepage"
 git push origin main
