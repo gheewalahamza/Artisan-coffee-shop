@@ -1461,3 +1461,93 @@ body.brewing-page main > section:last-child a:hover {
         padding: 45px 6%;
     }
 }
+
+/* =================================
+   BREWING METHODS - LAYOUT FIX
+================================= */
+
+#brewing-methods {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 35px;
+}
+
+/* Section heading and introduction */
+
+#brewing-methods > h2,
+#brewing-methods > p {
+    width: 100%;
+}
+
+/* Individual brewing method cards */
+
+#brewing-methods article {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 15px 30px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+    border-radius: 12px;
+    align-items: start;
+}
+
+/* Brewing method images */
+
+#brewing-methods article img {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Text content */
+
+#brewing-methods article h3,
+#brewing-methods article h4,
+#brewing-methods article p,
+#brewing-methods article ul,
+#brewing-methods article ol {
+    grid-column: 2;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+
+#brewing-methods article li {
+    line-height: 1.7;
+    margin-bottom: 5px;
+}
+
+/* Responsive layout */
+
+@media (max-width: 700px) {
+
+    #brewing-methods article {
+        grid-template-columns: 1fr;
+    }
+
+    #brewing-methods article img {
+        grid-column: 1;
+        grid-row: auto;
+        height: 230px;
+    }
+
+    #brewing-methods article h3,
+    #brewing-methods article h4,
+    #brewing-methods article p,
+    #brewing-methods article ul,
+    #brewing-methods article ol {
+        grid-column: 1;
+    }
+
+}
