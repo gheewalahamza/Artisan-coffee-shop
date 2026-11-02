@@ -1551,3 +1551,956 @@ body.brewing-page main > section:last-child a:hover {
     }
 
 }
+
+/* =========================================
+   ABOUT PAGE - ARTISAN COFFEE
+========================================= */
+
+/* Main content */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* General section styling */
+
+main > section {
+    padding: 55px 35px;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+}
+
+/* Section headings */
+
+main > section > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #593b2b;
+}
+
+main > section > h3 {
+    font-size: 22px;
+    color: #91694f;
+}
+
+/* Paragraphs */
+
+main > section > p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #55483e;
+    max-width: 950px;
+}
+
+/* Images */
+
+main > section > img {
+    width: 100%;
+    max-width: 650px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* Hero section */
+
+main > section:first-child {
+    text-align: center;
+    background-color: #f2e7d5;
+    border-radius: 15px;
+    padding: 65px 40px;
+}
+
+main > section:first-child img {
+    max-width: 750px;
+    height: 400px;
+}
+
+/* Brand introduction */
+
+main > section:nth-child(2) {
+    background-color: #faf6ef;
+    border-radius: 15px;
+}
+
+main > section:nth-child(2) img {
+    float: right;
+    width: 40%;
+    height: 300px;
+    margin: 10px 0 20px 30px;
+}
+
+/* Mission and Vision */
+
+main > section:nth-child(3) {
+    background-color: #e9d9c6;
+    border-radius: 15px;
+}
+
+main > section:nth-child(3) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    padding: 25px;
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #fffaf3;
+    border-radius: 12px;
+}
+
+main > section:nth-child(3) article h3 {
+    color: #754b32;
+}
+
+/* Brand values */
+
+main > section:nth-child(4) {
+    background-color: #faf6ef;
+    border-radius: 15px;
+}
+
+main > section:nth-child(4) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    min-height: 150px;
+    padding: 22px;
+    margin: 1%;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+    border-radius: 12px;
+}
+
+/* Our Journey */
+
+#our-journey {
+    background-color: #e9d9c6;
+    border-radius: 15px;
+}
+
+#our-journey article {
+    padding: 20px 25px;
+    margin: 15px 0;
+    background-color: #fffaf3;
+    border-left: 5px solid #91694f;
+    border-radius: 8px;
+}
+
+#our-journey article h3 {
+    color: #754b32;
+}
+
+/* Meet Our Team */
+
+main > section:nth-child(6) {
+    text-align: center;
+    background-color: #faf6ef;
+    border-radius: 15px;
+}
+
+main > section:nth-child(6) > article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+    border-radius: 12px;
+    text-align: center;
+}
+
+main > section:nth-child(6) article img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+main > section:nth-child(6) article h3 {
+    color: #754b32;
+}
+
+/* Sustainability */
+
+main > section:nth-child(7) {
+    background-color: #e9d9c6;
+    border-radius: 15px;
+}
+
+main > section:nth-child(7) img {
+    display: block;
+    max-width: 750px;
+}
+
+main > section:nth-child(7) ul {
+    line-height: 2;
+    color: #55483e;
+}
+
+/* Closing Message */
+
+main > section:last-child {
+    text-align: center;
+    background-color: #593b2b;
+    color: #fffaf3;
+    border-radius: 15px;
+}
+
+main > section:last-child h2,
+main > section:last-child p {
+    color: #fffaf3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > section:last-child a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 8px;
+    background-color: #d5ad83;
+    color: #38251b;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+main > section:last-child a:hover {
+    background-color: #fffaf3;
+}
+
+/* Hover effects */
+
+main article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(60, 35, 20, 0.12);
+}
+
+/* Responsive layout */
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+    }
+
+    main > section {
+        padding: 30px 20px;
+    }
+
+    main > section:nth-child(2) img {
+        float: none;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    main > section:nth-child(3) article,
+    main > section:nth-child(4) article {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    main > section:nth-child(6) > article {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    main > section:first-child img {
+        height: 250px;
+    }
+
+}
+
+/* =========================================
+   COFFEE CLUB PAGE - ARTISAN COFFEE
+========================================= */
+
+/* Main content */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* General sections */
+
+main > section {
+    padding: 50px 35px;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+main > section > h2 {
+    color: #593b2b;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+main > section > p {
+    color: #55483e;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 950px;
+}
+
+/* Hero section */
+
+main > section:first-child {
+    text-align: center;
+    background-color: #f2e7d5;
+    padding: 65px 40px;
+}
+
+main > section:first-child h3 {
+    color: #91694f;
+    font-size: 22px;
+}
+
+main > section:first-child img {
+    width: 100%;
+    max-width: 750px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+/* Hero button */
+
+main > section:first-child a {
+    display: inline-block;
+    padding: 13px 28px;
+    background-color: #593b2b;
+    color: #fffaf3;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+main > section:first-child a:hover {
+    background-color: #91694f;
+}
+
+/* About the Club */
+
+main > section:nth-child(2) {
+    background-color: #faf6ef;
+    min-height: 350px;
+}
+
+main > section:nth-child(2) img {
+    float: right;
+    width: 40%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px 0 20px 30px;
+    border-radius: 12px;
+}
+
+/* Membership Benefits */
+
+main > section:nth-child(3) {
+    background-color: #e9d9c6;
+}
+
+main > section:nth-child(3) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    min-height: 390px;
+    margin: 1%;
+    padding: 22px;
+    box-sizing: border-box;
+    background-color: #fffaf3;
+    border-radius: 12px;
+}
+
+main > section:nth-child(3) article img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 9px;
+    margin: 10px 0;
+}
+
+main > section:nth-child(3) article h3 {
+    color: #754b32;
+}
+
+main > section:nth-child(3) article p {
+    line-height: 1.7;
+    color: #55483e;
+}
+
+/* Featured Coffee */
+
+main > section:nth-child(4) {
+    background-color: #faf6ef;
+    text-align: center;
+}
+
+main > section:nth-child(4) > article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 370px;
+    margin: 1%;
+    padding: 18px;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+    border-radius: 12px;
+    text-align: left;
+}
+
+main > section:nth-child(4) article img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+main > section:nth-child(4) article h3 {
+    color: #754b32;
+}
+
+main > section:nth-child(4) article p {
+    line-height: 1.6;
+}
+
+/* Featured coffee menu link */
+
+main > section:nth-child(4) > p:last-child a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #593b2b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* Club Activities */
+
+main > section:nth-child(5) {
+    background-color: #e9d9c6;
+}
+
+main > section:nth-child(5) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    min-height: 150px;
+    margin: 1%;
+    padding: 22px;
+    box-sizing: border-box;
+    background-color: #fffaf3;
+    border-radius: 10px;
+}
+
+main > section:nth-child(5) article h3 {
+    color: #754b32;
+}
+
+/* Membership Form */
+
+#join-club {
+    background-color: #f2e7d5;
+    padding: 50px;
+}
+
+#join-club > p {
+    max-width: 850px;
+}
+
+#join-club form {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #fffaf3;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+#join-club form p {
+    margin-bottom: 22px;
+}
+
+#join-club label {
+    display: block;
+    margin-bottom: 9px;
+    color: #593b2b;
+    font-weight: bold;
+}
+
+#join-club input[type="text"],
+#join-club input[type="email"],
+#join-club select,
+#join-club textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #c8ad96;
+    border-radius: 6px;
+    background-color: #faf6ef;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#join-club textarea {
+    resize: vertical;
+}
+
+#join-club input:focus,
+#join-club select:focus,
+#join-club textarea:focus {
+    outline: 2px solid #91694f;
+}
+
+#join-club input[type="checkbox"] {
+    accent-color: #593b2b;
+}
+
+#join-club input[type="checkbox"] + label {
+    display: inline;
+    font-weight: normal;
+}
+
+#join-club button {
+    padding: 13px 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #593b2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#join-club button:hover {
+    background-color: #91694f;
+}
+
+/* Form note */
+
+#join-club > p:last-child {
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Closing Section */
+
+main > section:last-child {
+    text-align: center;
+    background-color: #593b2b;
+    color: #fffaf3;
+}
+
+main > section:last-child h2,
+main > section:last-child p {
+    color: #fffaf3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > section:last-child a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 8px;
+    background-color: #d5ad83;
+    color: #38251b;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+main > section:last-child a:hover {
+    background-color: #fffaf3;
+}
+
+/* Hover effects */
+
+main article {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+main article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(60, 35, 20, 0.12);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+    }
+
+    main > section {
+        padding: 30px 20px;
+    }
+
+    main > section:nth-child(2) img {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    main > section:nth-child(3) article,
+    main > section:nth-child(5) article {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    main > section:nth-child(4) > article {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    main > section:first-child img {
+        height: 250px;
+    }
+
+    #join-club {
+        padding: 25px 15px;
+    }
+
+    #join-club form {
+        padding: 22px;
+    }
+
+    #join-club button {
+        margin: 5px 2px;
+    }
+
+}
+
+/* =========================================
+   CONTACT PAGE - ARTISAN COFFEE
+========================================= */
+
+/* Main Content */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+main > section {
+    padding: 50px 35px;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+main > section > h2 {
+    color: #593b2b;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+main > section > p {
+    color: #55483e;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 950px;
+}
+
+/* Hero Section */
+
+main > section:first-child {
+    text-align: center;
+    background-color: #f2e7d5;
+    padding: 65px 40px;
+}
+
+main > section:first-child h3 {
+    color: #91694f;
+    font-size: 22px;
+}
+
+main > section:first-child img {
+    width: 100%;
+    max-width: 750px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 25px 0;
+}
+
+/* Contact Information Cards */
+
+main > section:nth-child(2) {
+    background-color: #faf6ef;
+}
+
+main > section:nth-child(2) article {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-height: 220px;
+    margin: 1%;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #f2e7d5;
+    border-radius: 12px;
+}
+
+main > section:nth-child(2) article h3 {
+    color: #754b32;
+    font-size: 21px;
+}
+
+main > section:nth-child(2) article p {
+    line-height: 1.7;
+    color: #55483e;
+}
+
+main > section:nth-child(2) article a {
+    color: #754b32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > section:nth-child(2) article a:hover {
+    text-decoration: underline;
+}
+
+/* Business Hours */
+
+main > section:nth-child(3) {
+    background-color: #e9d9c6;
+}
+
+main > section:nth-child(3) table {
+    width: 100%;
+    max-width: 850px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fffaf3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+main > section:nth-child(3) caption {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #593b2b;
+}
+
+main > section:nth-child(3) th {
+    background-color: #593b2b;
+    color: #fffaf3;
+    padding: 16px;
+    text-align: left;
+}
+
+main > section:nth-child(3) td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #e5d5c5;
+    color: #55483e;
+}
+
+main > section:nth-child(3) tr:hover {
+    background-color: #f2e7d5;
+}
+
+/* Contact Form */
+
+main > section:nth-child(4) {
+    background-color: #f2e7d5;
+}
+
+main > section:nth-child(4) form {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 35px;
+    background-color: #fffaf3;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+main > section:nth-child(4) form p {
+    margin-bottom: 22px;
+}
+
+main > section:nth-child(4) form label {
+    display: block;
+    margin-bottom: 9px;
+    color: #593b2b;
+    font-weight: bold;
+}
+
+main > section:nth-child(4) input[type="text"],
+main > section:nth-child(4) input[type="email"],
+main > section:nth-child(4) input[type="tel"],
+main > section:nth-child(4) select,
+main > section:nth-child(4) textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #c8ad96;
+    border-radius: 6px;
+    background-color: #faf6ef;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+main > section:nth-child(4) textarea {
+    resize: vertical;
+}
+
+main > section:nth-child(4) input:focus,
+main > section:nth-child(4) select:focus,
+main > section:nth-child(4) textarea:focus {
+    outline: 2px solid #91694f;
+}
+
+/* Form Buttons */
+
+main > section:nth-child(4) button {
+    padding: 13px 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #593b2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main > section:nth-child(4) button:hover {
+    background-color: #91694f;
+}
+
+/* Form Note */
+
+main > section:nth-child(4) > p:last-child {
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Frequently Asked Questions */
+
+main > section:nth-child(5) {
+    background-color: #faf6ef;
+}
+
+main > section:nth-child(5) article {
+    padding: 22px 25px;
+    margin: 18px 0;
+    background-color: #f2e7d5;
+    border-left: 5px solid #91694f;
+    border-radius: 8px;
+}
+
+main > section:nth-child(5) article h3 {
+    color: #754b32;
+}
+
+main > section:nth-child(5) article p {
+    line-height: 1.7;
+    color: #55483e;
+}
+
+main > section:nth-child(5) article a {
+    color: #754b32;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > section:nth-child(5) article a:hover {
+    text-decoration: underline;
+}
+
+/* Final Call to Action */
+
+main > section:last-child {
+    text-align: center;
+    background-color: #593b2b;
+    color: #fffaf3;
+}
+
+main > section:last-child h2,
+main > section:last-child p {
+    color: #fffaf3;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > section:last-child a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 8px;
+    background-color: #d5ad83;
+    color: #38251b;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+main > section:last-child a:hover {
+    background-color: #fffaf3;
+}
+
+/* General Hover Effects */
+
+main article {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+main article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(60, 35, 20, 0.12);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    main {
+        width: 95%;
+    }
+
+    main > section {
+        padding: 30px 20px;
+    }
+
+    main > section:nth-child(2) article {
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    main > section:first-child img {
+        height: 250px;
+    }
+
+    main > section:nth-child(3) {
+        overflow-x: auto;
+    }
+
+    main > section:nth-child(3) table {
+        min-width: 500px;
+    }
+
+    main > section:nth-child(4) form {
+        padding: 22px;
+    }
+
+    main > section:nth-child(4) button {
+        margin: 5px 2px;
+    }
+
+}
