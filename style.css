@@ -1900,6 +1900,10 @@ main > section:nth-child(2) {
     min-height: 350px;
 }
 
+body.club-page main > section:nth-child(2) {
+    display: flow-root;
+}
+
 main > section:nth-child(2) img {
     float: right;
     width: 40%;
